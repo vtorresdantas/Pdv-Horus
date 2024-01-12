@@ -99,23 +99,23 @@ if (!isset($_SESSION['autenticado']) || $_SESSION['autenticado'] != 'SIM') {
                                 
                         </div>
                         <div class="px-4 mt-5">
-                            <p>Desenvolvido por Flávio Oliveira</p>
+                            <p>Desenvolvido por Vitor Torres Dantas</p>
 
                             
-                                <a style="color: #3b5998;"  role="button" href="https://www.linkedin.com/in/fladoliveira"
+                                <a style="color: #3b5998;"  role="button" href="https://www.linkedin.com/in/vtorresdantas7"
                                 target="_blank"
                                 ><i class="fab fa-linkedin icone_sobre"></i
                                 ></a>
 
-                                <a style="color: #000;"  role="button" href="https://github.com/oliveiradeflavio"
+                                <a style="color: #000;"  role="button" href="https://github.com/vtorresdantas"
                                 target="_blank"
                                 ><i class="fab fa-github icone_sobre"></i
                                 ></a>
 
-                                <a style="color: #E1306C"  role="button" href="https://www.instagram.com/flavio_tech"
-                                target="_blank"
-                                ><i class="fab fa-instagram icone_sobre"></i
-                                ></a>
+                               <a style="color: #25D366" role="button" href="https://api.whatsapp.com/send?phone=5511995398379" 
+                                target="_blank">
+        <i class="fab fa-whatsapp icone_sobre"></i>
+                            </a>
                         </div>
                     </div>
                 </div>

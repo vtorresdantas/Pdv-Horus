@@ -143,7 +143,7 @@ if (!isset($_SESSION['autenticado']) || $_SESSION['autenticado'] != 'SIM') {
         <!-- Copyright -->
         <div class="text-center p-3">
             <?= date("Y") ?> <i class="fa-solid fa-code"></i>
-            <a href="sobre.php">Flávio Oliveira</a>
+            <a href="sobre.php">Vitor Torres Dantas</a>
         </div>
   <!-- Copyright -->
     </footer>
