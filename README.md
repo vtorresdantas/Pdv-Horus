@@ -53,14 +53,6 @@ senha: usuarioteste
 ![ImpressaoVenda](https://github.com/oliveiradeflavio/horus_pdv/blob/main/screen/impressao_venda.png)
 ![Configuracoes](https://github.com/oliveiradeflavio/horus_pdv/blob/main/screen/configuracoes.png)
 
-<!-- CONTACT -->
-## Contato
-
-Flávio Oliveira - [LinkedIn](https://www.linkedin.com/in/fladoliveira/)
-
-Link do Projeto: [https://github.com/oliveiradeflavio/horus_pdv](https://github.com/oliveiradeflavio/horus_pdv)
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
