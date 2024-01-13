@@ -173,6 +173,20 @@ if (!isset($_SESSION['autenticado']) || $_SESSION['autenticado'] != 'SIM') {
             </div>
         </div>
 
+        <div class="container centro mb-2 mt-5" id="campo_pesquisa">
+            <div class="row">
+                <div class="col-md-12">
+                    <form method="GET" action="?#campo_pesquisa" id='pesquisar_dados'>
+                        <div class="input-group rounded">
+                            <input type="search" class="form-control rounded input_pesquisar" name="buscar" id="inputPesquisarProd" placeholder="Nome ou Código a ser pesquisado" onchange="verificarCampoPesquisa()" />
+                            <button type="button" onclick="verificarCampoPesquisa()" class="input-group-text border-0" id="botaoPesquisar">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-12">
@@ -234,19 +248,7 @@ if (!isset($_SESSION['autenticado']) || $_SESSION['autenticado'] != 'SIM') {
             </div>
         </div>
 
-        <div class="container centro mb-2 mt-5" id="campo_pesquisa">
-            <div class="row">
-                <div class="col-md-12">
-                    <form method="GET" action="?#campo_pesquisa" id='pesquisar_dados'>
-                        <div class="input-group rounded">
-                            <input type="search" class="form-control rounded input_pesquisar" name="buscar" id="inputPesquisarProd" placeholder="Nome ou Código a ser pesquisado" onchange="verificarCampoPesquisa()" />
-                            <button type="button" onclick="verificarCampoPesquisa()" class="input-group-text border-0" id="botaoPesquisar">
-                                <i class="fas fa-search"></i>
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+        
             <?php
             if (isset($_GET['buscar'])) { ?>
 
