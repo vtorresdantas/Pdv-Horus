@@ -59,3 +59,19 @@ senha: usuarioteste
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/fladoliveira/
 [product-screenshot]: https://raw.githubusercontent.com/oliveiradeflavio/horus_pdv/main/screen/dashboard.png
+
+## Como utilizar?
+
+- Baixar o projeto ou clonar no vscode
+- alterar a classe de conexao.php com o endereço correto do seu banco de dados local MySQL.
+- Baixar o Xampp Control Panel em https://www.apachefriends.org/pt_br/download.html
+- Abrir o painel do Xampp e iniciar o servidor Apache e o banco de dados MySQL
+
+  ![image](https://github.com/vtorresdantas/Pdv-Horus/assets/62342894/957e7537-a2b2-402f-ab4f-6600686157b8)
+
+- Executar o script pdv_horus.sql para criar a estrutura de tabelas da aplicação PDV pelo phpMyAdmin em http://localhost/phpmyadmin/
+
+![image](https://github.com/vtorresdantas/Pdv-Horus/assets/62342894/0b86a795-78da-4f8c-8b14-613ed5b104b1)
+
+- Acessar a aplicação em http://localhost/horus_pdv/pdv_public/
+
